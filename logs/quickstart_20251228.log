@@ -1,0 +1,21 @@
+2025-12-28 11:11:39 - QuickStart - INFO - 开始搜索景点ID，关键词: 黄鹤楼
+2025-12-28 11:11:42 - QuickStart - INFO - Request: POST https://m.ctrip.com/restapi/soa2/26872/search | Status: 200 | Time: 2.37s
+2025-12-28 11:11:42 - QuickStart - INFO - 成功获取景点ID: 8979，关键词: 黄鹤楼
+2025-12-28 11:11:42 - QuickStart - INFO - Successfully extracted 1 sight_id items
+2025-12-28 11:11:42 - QuickStart - INFO - 开始爬取景点: 星海广场 (ID: 76865)
+2025-12-28 11:11:42 - QuickStart - INFO - CSV文件已初始化: ./Datasets\76865_星海广场.csv
+2025-12-28 11:11:44 - QuickStart - INFO - Request: POST https://m.ctrip.com/restapi/soa2/13444/json/getCommentCollapseList | Status: 200 | Time: 2.50s
+2025-12-28 11:11:44 - QuickStart - INFO - 总评论数: 1942, 总页数: 194
+2025-12-28 11:11:44 - QuickStart - INFO - 计划爬取 2 页评论
+2025-12-28 11:11:44 - QuickStart - INFO - 正在爬取第 1/2 页...
+2025-12-28 11:11:47 - QuickStart - INFO - Request: POST https://m.ctrip.com/restapi/soa2/13444/json/getCommentCollapseList | Status: 200 | Time: 2.38s
+2025-12-28 11:11:47 - QuickStart - INFO - Successfully extracted 10 comments items
+2025-12-28 11:11:47 - QuickStart - INFO - 第 1 页爬取完成，获取 10 条评论
+2025-12-28 11:11:47 - QuickStart - INFO - Comment Crawling progress: 1/2 (50.00%)
+2025-12-28 11:11:49 - QuickStart - INFO - 正在爬取第 2/2 页...
+2025-12-28 11:11:51 - QuickStart - INFO - Request: POST https://m.ctrip.com/restapi/soa2/13444/json/getCommentCollapseList | Status: 200 | Time: 2.51s
+2025-12-28 11:11:51 - QuickStart - INFO - Successfully extracted 10 comments items
+2025-12-28 11:11:51 - QuickStart - INFO - 第 2 页爬取完成，获取 10 条评论
+2025-12-28 11:11:51 - QuickStart - INFO - Comment Crawling progress: 2/2 (100.00%)
+2025-12-28 11:11:51 - QuickStart - INFO - 景点 星海广场 爬取完成，总耗时: 9.28秒，共获取 20 条评论，保存至: ./Datasets\76865_星海广场.csv
+2025-12-28 11:11:51 - QuickStart - INFO - Successfully extracted 20 comments items
